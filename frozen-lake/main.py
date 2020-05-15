@@ -1,6 +1,7 @@
 import gym
 import argparse
 from agents.sarsa import SARSA
+from agents.q_learning import QLearning
 import tensorflow as tf
 import os
 
@@ -14,6 +15,8 @@ def main(agent_type, episodes, exp_name):
     actions = env.action_space.n
     if agent_type == "SARSA":
         agent = SARSA(states=states, actions=actions)
+    elif agent_type == "QLearning":
+        agent = QLearning(states=states, actions=actions)
     else:
         raise NotImplementedError
 
@@ -45,8 +48,8 @@ def main(agent_type, episodes, exp_name):
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
-    ap.add_argument("--agent", type=str, default="SARSA", help="agent type")
-    ap.add_argument("--exp_name", type=str, default="SARSA", help="exp_name")
+    ap.add_argument("--agent", type=str, default="QLearning", help="agent type")
+    ap.add_argument("--exp_name", type=str, default="QLearning", help="exp_name")
     ap.add_argument("--episodes", type=int, default=100000, help="number of episodes to run")
     args = vars(ap.parse_args())
     main(agent_type=args["agent"], episodes=args["episodes"], exp_name=args["exp_name"])
