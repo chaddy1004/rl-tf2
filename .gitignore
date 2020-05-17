@@ -1,0 +1,11 @@
+cartpole/logs/DQN/events.out.tfevents.1589707463.Chads-MacBook-Pro.local.3050.5.v2
+cartpole/logs/DQN/events.out.tfevents.1589707586.Chads-MacBook-Pro.local.3074.5.v2
+cartpole/logs/DQN_final/events.out.tfevents.1589714433.Chads-MacBook-Pro.local.3454.5.v2
+cartpole/logs/DQN_with_target/events.out.tfevents.1589708656.Chads-MacBook-Pro.local.3189.5.v2
+cartpole/logs/DQN_with_zeros/events.out.tfevents.1589713013.Chads-MacBook-Pro.local.3371.5.v2
+frozenlake/logs/QLearning/events.out.tfevents.1589547493.Chads-MacBook-Pro.local.3143.5.v2
+frozenlake/logs/QLearning/events.out.tfevents.1589547524.Chads-MacBook-Pro.local.3160.5.v2
+frozenlake/logs/QLearning/events.out.tfevents.1589635207.Chads-MacBook-Pro.local.2195.5.v2
+frozenlake/logs/QLearning/events.out.tfevents.1589635303.Chads-MacBook-Pro.local.2228.5.v2
+frozenlake/logs/QLearning/events.out.tfevents.1589635315.Chads-MacBook-Pro.local.2240.5.v2
+frozenlake/logs/SARSA/events.out.tfevents.1589546417.Chads-MacBook-Pro.local.3045.5.v2
